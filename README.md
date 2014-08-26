@@ -6,7 +6,7 @@ MovieLinker simplifies all this by:
 1.  Allowing you to select a theatre near your current location
 2.  Displaying that theatres' offerings
 3.  Providing HD trailers
-4.  Generating all possible schedules of the selected movies based off the current time.
+4.  Generating all possible schedules of the selected movies based off the current time, within a 30 minute wait
 
 ## Screenshots
 <a href="http://imgur.com/VzfyfTD"><img src="http://i.imgur.com/VzfyfTD.png" title="Hosted by imgur.com"/></a>
