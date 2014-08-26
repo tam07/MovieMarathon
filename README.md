@@ -10,9 +10,9 @@ MovieLinker simplifies all this by:
 
 ## Screenshots
 <a href="http://imgur.com/VzfyfTD"><img src="http://i.imgur.com/VzfyfTD.png" title="Hosted by imgur.com"/></a>
-<a href="http://imgur.com/nU0aqQT"><img src="http://i.imgur.com/nU0aqQT.png" title="Hosted by imgur.com"/></a>
+<a href="http://imgur.com/NvHu5aI"><img src="http://i.imgur.com/NvHu5aI.png" title="Hosted by imgur.com"/></a>
 <a href="http://imgur.com/gPaFnzY"><img src="http://i.imgur.com/gPaFnzY.png" title="Hosted by imgur.com"/></a>
-<a href="http://imgur.com/Mm3s7xl"><img src="http://i.imgur.com/Mm3s7xl.png" title="Hosted by imgur.com"/></a>
+<a href="http://imgur.com/dIGfsur"><img src="http://i.imgur.com/dIGfsur.png" title="Hosted by imgur.com"/></a>
 
 
 ## Building
