@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.9"
+        android:scaleY="1.9"
+        android:layout_marginRight="8dp" />
+
+    <FrameLayout
+        android:id="@+id/posterLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cb"
+        android:layout_alignTop="@+id/cb">
+
+        <ImageView
+            android:id="@+id/ivMoviePoster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/poster_border" />
+
+        <ImageView
+            android:id="@+id/ivPlayBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/play"
+            android:onClick="playTrailer" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/movie_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/posterLayout"
+        android:layout_marginLeft="6dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/topCast"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/posterLayout"
+        android:layout_below="@id/movie_title"
+        android:layout_margin="6dp"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/posterLayout"
+        android:layout_below="@id/topCast"
+        android:layout_marginLeft="6dp"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/movlength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/posterLayout"
+        android:layout_below="@id/rating"
+        android:layout_marginLeft="6dp"
+        android:textSize="13sp" />
+
+    <!--  match_parent width means match the parent(RelativeLayout) width;
+          fill out rest of screen.  Versus wrap_content on height means the grid should only
+          be as high as the results it contains -->
+    <com.sb.android.widget.NonScrollableGridView
+        android:id="@+id/showtimes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/posterLayout"
+        android:layout_toRightOf="@id/cb"
+        android:numColumns="4"
+        android:padding="2dp"
+        android:gravity="center" />
+
+</RelativeLayout>

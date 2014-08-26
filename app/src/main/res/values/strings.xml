@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Movie Marathon!</string>
+    <string name="action_settings">Settings</string>
+    <string name="minutes_spent">Total</string>
+    <string name="title_activity_select">SelectActivity</string>
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="refresh_menu_button"></string>
+    <string name="theatre_wait_msg">Finding nearby theatres....</string>
+    <string name="showtimes_wait_msg">Getting showtimes....</string>
+    <string name="title_activity_synopsis">SynopsisActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_two_way_activity_test">TwoWayActivityTest</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="poss_sched">Possible Schedules</string>
+    <string name="calculate_btn">Schedule!</string>
+
+</resources>
